@@ -1,0 +1,31 @@
+header{
+    color: darkgreen;
+    text-align: center;
+}
+
+.goonies{
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+dt{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+dd{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: darkgrey;
+}
+
