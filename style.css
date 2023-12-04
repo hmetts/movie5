@@ -1,11 +1,18 @@
 header{
-    color: darkgreen;
+    color: white;
     text-align: center;
+    border: 10%;
+    text-shadow: 5px 5px 5px black;
+    border-style: dashed;
+    border-color: black;
+    background-color: darkgreen;
+    
 }
 
 .goonies{
-    color: darkgreen;
+    color: orangered;
     font-weight: bolder;
+    text-shadow: 1px 1px black;
 }
 
 dt{
@@ -15,10 +22,12 @@ dt{
 
 dd{
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 3px orangered;
 }
 
 h1{
@@ -26,6 +35,37 @@ h1{
 }
 
 body{
-    background-color: darkgrey;
+    background-color: grey;
+    background-image: linear-gradient(to bottom, darkgreen, grey);
+
 }
 
+#wrapper{
+    background-position: center;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    box-shadow: 6px 6px 6px;
+    
+}
+
+#goonies{
+    background-image: url(goonies.jpg);
+    height: 300px;
+    width:600px;
+    background-position: center;
+    margin: auto;
+}
+
+nav a{
+    color: orangered;
+    text-decoration: none;
+    font-size:x-large;
+    
+}
+#roger a {
+    color: orangered;
+    text-decoration: none;
+    font-size: medium;
+}
